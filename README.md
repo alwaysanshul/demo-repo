@@ -11,11 +11,11 @@ To check status:
 ```
 git status
 ```
-To track a file: 
+To stage a file: 
 ```
 git add file.txt
 ```
-To untrack a file:
+To unstage a file:
 ```
 git restore file.txt
 ```

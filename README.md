@@ -1,6 +1,6 @@
 # GIT & GITHUB 
 ## GIT COMMANDS
-![](snap/p2.jpg)
+![](snap/p2.png)
 
 
 To list hidden files: 
@@ -62,9 +62,9 @@ To add origin manually: (When push a locally created repo to github)
 ```
 git remote add origin git@github.com:username/repo.git
 ```
-![](snap/p4.jpg)
+![](snap/p4.png)
 ## Branching
-![](snap/p5.jpg) 
+![](snap/p5.png) 
 To list the branches: 
 ```
 $ git branch
@@ -123,7 +123,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 Now you need to use editor like vscode to manually edit the code merge
 
-![](snap/p6.jpg)
+![](snap/p6.png)
 
 ## Undoing in Git
 

@@ -6,4 +6,8 @@ git &amp; github tutorial
 
 Watch full video on Youtube
 
+## Instructions
+
+1. Open ```index.html``` in your browser.
+
 

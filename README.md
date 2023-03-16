@@ -1,5 +1,6 @@
-![](snap/p1.jpg)
-![](snap/p2.jpg)  
+# GIT & GITHUB 
+## GIT COMMANDS
+![](snap/p2.jpg)
 
 
 To list hidden files: 
@@ -30,7 +31,6 @@ ssh-keygen -t rsa -b 4096 -C "abc@gmail.com"
 ```
 key.pub will be uploaded, which is okay to be public <br>
 Only the private key could have generated the public key.<br>
-![](snap/p3.jpg)
 <br>
 Start ssh-agent:
 ```eval "$(ssh-agent -s)"  
@@ -151,3 +151,5 @@ Complete copy of some repo (including the branches)<br>
 3. complete control over code of repo
 
 To get our change to get in the original repo, we need to pull request.
+
+__These notes made from course by Gwen Faraday(@faradayacademy)__

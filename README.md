@@ -152,4 +152,11 @@ Complete copy of some repo (including the branches)<br>
 
 To get our change to get in the original repo, we need to pull request.
 
+# Bonus Tricks
+## How to SSH a git repository after already cloned with https?
+In short, this should do it:
+`$ git remote set-url origin user@example.com:PATH/REPOSITORY`
+Example: 
+`$ git remote set-url origin git@github.com:alwaysanshul/FitHub.git`
 __These notes made from course by Gwen Faraday(@faradayacademy)__
+

@@ -158,5 +158,27 @@ In short, this should do it:
 `$ git remote set-url origin user@example.com:PATH/REPOSITORY`  
 Example:   
 `$ git remote set-url origin git@github.com:alwaysanshul/FitHub.git`  
+## To ignore a file in a Git repository.Here's how you can do it:
+* Create a `.gitignore` file in the root directory of your Git repository, if it doesn't already exist.
+* Open the `.gitignore` file in a text editor.
+* Add the file or directory pattern that you want to ignore. For example, if you want to ignore a file named `example.txt` simply add the following line to your `.gitignore` file:
+```
+example.txt
+```
+* Save and close the .gitignore file.
+* Commit and push the .gitignore file to your Git repository.
+__Note__: If you have already committed the file that you want to ignore, you will need to remove it from the repository and create a new commit before the changes in .gitignore take effect. You can use the following Git commands to remove the file from the repository while keeping it in your local working directory:
+```
+git rm --cached example.txt
+git commit -m "Removed example.txt from version control"
+```
+The `git rm --cached` command removes the file from the repository but keeps it in your local working directory. The subsequent git commit command creates a new commit with the changes.  
+To __ignore__ all files with a particular __extension__ in a Git repository, you can add a wildcard pattern to your .gitignore file. Here's how you can do it:
+* Open your .gitignore file in a text editor.
+* Add the following line to ignore all files with the extension .ext:
+```
+*.ext
+``` 
+
 __These notes made from course by Gwen Faraday(@faradayacademy)__
 

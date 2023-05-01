@@ -54,6 +54,12 @@ How to Update the URL of origin remote using SSH instead of HTTPS:
 ```
 git remote set-url origin git@github.com:username/repo.git
 ```
+### IN CASE OF WINDOWS: 
+1. Use Git Bash
+2. eval `ssh-agent -s`
+3. ssh-add key
+4. git clone <>
+
 To Check: 
 ```
 git remote -v

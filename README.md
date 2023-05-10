@@ -56,8 +56,8 @@ git remote set-url origin git@github.com:username/repo.git
 ```
 ### IN CASE OF WINDOWS: 
 1. Use Git Bash
-2. eval `ssh-agent -s`
-3. ssh-add key
+2. ```eval `ssh-agent -s` ```
+3. ssh-add /c/users/hp/documents/../key
 4. git clone <>
 
 To Check: 
